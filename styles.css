@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px 20px;
+}
+
+.img-logo{
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav-list li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
